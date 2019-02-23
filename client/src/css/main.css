@@ -1,0 +1,372 @@
+/*                                                         LOGIN PAGE                                               */
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(171, 245, 95);
+  text-decoration: none;
+}
+
+.main-page {
+  background-color: rgba(255, 255, 255, 0.78);
+  /* background-color: rgb(137, 255, 33); */
+}
+
+.main-container {
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.main-title {
+  color: rgb(171, 245, 95);
+  text-align: center;
+  font-size: 3rem;
+}
+
+.titleColorAdjust {
+  color: rgb(171, 245, 95);
+}
+
+.titleColorAdjust:hover {
+  color: rgb(171, 245, 95) !important;
+  text-decoration: none;
+}
+
+.header-index {
+  align-items: center;
+  height: 99px;
+  background-color: rgba(0, 0, 0, 0.69);
+  display: flex;
+  justify-content: center;
+}
+
+.signUp-with {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.signUp-with a {
+  color: white;
+}
+
+.login-form {
+  width: 30%;
+  margin: 4% auto;
+}
+
+.facebook-button {
+  text-align: center;
+  line-height: 55px;
+  font-weight: 800;
+  color: white;
+  background-color: rgb(63, 80, 169);
+  border-radius: 2rem;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.instagram-button {
+  text-align: center;
+  line-height: 55px;
+  font-weight: 800;
+  color: white;
+  /* background-color: rgb(63, 80, 169); */
+  background: linear-gradient(
+    to bottom,
+    rgb(251, 173, 80) 0%,
+    rgb(138, 58, 185) 100%
+  );
+  border-radius: 2rem;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.gmail-button {
+  text-align: center;
+  line-height: 55px;
+  font-weight: 800;
+  background-color: #c74343;
+  border-radius: 2rem;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.line-thru:before {
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+  content: "";
+  margin: -5px 0 0 -20px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.line-thru:after {
+  border-bottom: 1px solid #dfe0e6;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 64%;
+  width: 100%;
+  z-index: -2;
+}
+
+.line-thru {
+  display: block;
+  font-size: 0.875em;
+  margin-bottom: 1em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.signUp-btn {
+  width: 80%;
+  background-color: white;
+  color: black;
+  border: solid 2px rgba(70, 70, 70, 0.84);
+  margin: 15px 10%;
+  border-radius: 1.8rem;
+  font-weight: 600;
+  height: 53px;
+}
+
+.leadToSignUp {
+  text-align: center;
+  margin-bottom: unset;
+  margin: 3% 0;
+}
+
+.signUpButtonWrap {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login-btn {
+  float: right;
+  width: 40%;
+  background-color: rgb(171, 245, 95);
+  color: white;
+  border-color: rgb(171, 245, 95);
+  margin: 15px 10%;
+  border-radius: 1.8rem;
+  font-weight: 600;
+  height: 53px;
+}
+
+.attributeNone {
+  color: black;
+  text-decoration: none;
+}
+
+.attributeNone:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*                              ########################                  MAIN Page                           ##########################*/
+
+.header-main {
+  align-items: center;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.69);
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+
+.main-main-title {
+  margin-left: 15px;
+  color: rgb(171, 245, 95);
+  /* text-align: center; */
+  font-size: 2.2rem;
+}
+
+.main-main-title a {
+  color: rgb(171, 245, 95);
+}
+
+.header-main li {
+  list-style: none;
+}
+
+.nav-items-right {
+  margin-top: unset;
+  margin-bottom: unset;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-right {
+  width: 33%;
+}
+
+li p {
+  color: white;
+  font-size: 21px;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.card-body2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avator {
+  width: 25%;
+}
+
+.avator img {
+  width: 100%;
+}
+
+.song-title {
+  width: 82%;
+  margin-bottom: unset;
+  margin-top: unset;
+  text-align: center;
+}
+
+.card2 {
+  width: 15rem;
+  margin: auto;
+}
+
+.main-container h2 {
+  color: rgba(0, 0, 0, 0.69);
+  margin: 2.5% 4px;
+}
+
+.row {
+  margin-bottom: 4%;
+}
+
+.main-picture {
+  background-image: url("../images/beach-beach-chairs-blue-sky-1174732\ copy.jpg");
+  height: 770px;
+  background-size: cover;
+  background-position-y: 100%;
+  width: 100%;
+}
+
+.marketing-blurp {
+  font-size: 42px;
+  position: absolute;
+  text-align: center;
+  top: 356px;
+  right: 15%;
+  color: rgb(255, 255, 255);
+}
+
+.progress {
+  margin-bottom: 12%;
+}
+
+/* Photo by Stephen Niemeier from Pexels */
+.main-picture-for-my-shiftz {
+  background-image: url("../images/audio-dj-mix-63703\ copy.jpg");
+  height: 661px;
+  background-size: cover;
+  background-position-y: 46%;
+  width: 100%;
+}
+
+.marketing-blurp-for-myshiftz {
+  font-size: 42px;
+  position: absolute;
+  text-align: center;
+  top: 366px;
+  right: 8%;
+  color: rgb(255, 255, 255);
+}
+
+.second-text-wrapper {
+  /* font-size: 42px; */
+}
+
+.body-background1 {
+  background-color: rgb(91, 226, 121);
+  width: 100%;
+  /* margin-top: -28px; */
+}
+
+.first-text-wrapper2 h2 {
+  padding-bottom: 2.5%;
+}
+
+.main-background2 {
+  background-color: rgba(241, 241, 241, 0.89);
+  width: 100%;
+}
+
+.second-text-wrapper h2 {
+  margin-top: 0;
+  margin-bottom: 2.5%;
+}
+
+/*                                   ###################        SEARCH PAGE                   ########################                    */
+
+.main-picture-for-search {
+  background-image: url("../images/abstract-art-background-1037999\ copy.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position-y: 49%;
+  width: 100%;
+}
+
+.main-search-window {
+  height: 55px;
+  position: absolute;
+  top: 540px;
+  right: 28%;
+  width: 40%;
+}
+
+.marketing-blurp-search {
+  font-size: 42px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.search-button {
+  height: 62px;
+  width: 436px !important;
+}
+
+#searchSubmit {
+  height: 62px;
+  width: 112px;
+  background-color: rgb(105, 208, 66);
+  color: white;
+  font-size: 24px;
+}
+
+.second-main {
+  background-color: rgba(0, 0, 0, 0.79);
+  height: auto;
+}
+
+.lec-wrapper {
+  text-align: center;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  top: 468px;
+  margin-left: 20%;
+}
