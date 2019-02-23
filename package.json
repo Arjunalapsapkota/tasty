@@ -32,6 +32,8 @@
     "passport-google-oauth20": "^1.0.0",
     "passport-instagram": "^1.0.0",
     "react-scripts": "^2.1.5",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "express-http-proxy": "^1.5.1",
+    "http-proxy-middleware": "^0.19.1"
   }
 }
